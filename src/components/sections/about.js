@@ -144,10 +144,10 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! I'm Xavier Elon, a Computer Science graduate from Oregon State University based
-              in Orlando, FL who has a passion for technology, blockchain/crypto and spcace. I am
-              currently working for Deloitte under a long-term contract with the IRS as a Full-Stack
-              Software Engineer.
+              Hello! I'm Sean Defontaine, an Information Technology graduate from the University of
+              Central Florida based in New York, NY who has a passion for technology, devops, cloud
+              infrastructure, and blockchain. I am currently working for Deloitte under an internal
+              company contract as a Full-Stack Software Engineer.
             </p>
 
             <p>

@@ -1,22 +1,22 @@
 module.exports = {
-  email: 'xavierelon93@gmail.com',
+  email: 'sean.defontaine@gmail.com',
 
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/xavierelon',
+      url: 'https://github.com/scdefontaine',
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/xavierelon',
+      url: 'https://www.instagram.com/yo_sheo',
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/elon_xavier',
+      url: 'https://twitter.com/yosheo',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/xavierelon',
+      url: 'https://www.linkedin.com/in/seandefontaine',
     },
     {
       name: 'Codepen',

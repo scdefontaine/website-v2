@@ -59,16 +59,17 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Xavier Elon Hollingsworth.</h2>;
+  const two = <h2 className="big-heading">Sean Defontaine</h2>;
   const three = <h3 className="big-heading">I shape the future.</h3>;
   const four = (
     <>
       <p>
-        I’m a full-stack software engineer specializing in React and Java working at{' '}
+        I’m a full-stack software engineer specializing in Full Stack Development, CI/CD Pipelines,
+        and Kubernetes working at{' '}
         <a href="https://deloitte.com/" target="_blank" rel="noreferrer">
           Deloitte
         </a>{' '}
-        . I have 2+ years of professional experience! I am currently working on an NFT Marketplace
+        . I have 5+ years of professional experience! I am currently working on an NFT Marketplace
         built on the Flow blockchain. I am currently looking for work in the blockchain sector,
         startups preferred but open to other opportunities as well.
       </p>
@@ -77,7 +78,7 @@ const Hero = () => {
   const five = (
     <a
       className="email-link"
-      href="https://github.com/XavierElon/XavierElon/blob/main/README.md"
+      href="https://github.com/scdefontaine"
       target="_blank"
       rel="noreferrer"
     >
