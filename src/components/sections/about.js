@@ -131,7 +131,7 @@ const About = () => {
     'Kubernetes',
     'Amazon Web Services',
     'Microsoft Azure',
-    'Open Container Platform',
+    'Openshift Container Platform',
     'Docker / Podman',
     'GitLab CI/CD',
     'SonarQube',
