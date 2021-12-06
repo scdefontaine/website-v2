@@ -7,21 +7,21 @@ module.exports = {
       url: 'https://github.com/scdefontaine',
     },
     {
+      name: 'Linkedin',
+      url: 'https://www.linkedin.com/in/seandefontaine',
+    },
+    {
       name: 'Instagram',
       url: 'https://www.instagram.com/yo_sheo',
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/yosheo',
+      url: 'https://twitter.com/yo_sheo',
     },
-    {
-      name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/seandefontaine',
-    },
-    {
-      name: 'Codepen',
-      url: 'https://codepen.io',
-    },
+    // {
+    //   name: 'Codepen',
+    //   url: 'https://codepen.io',
+    // },
   ],
 
   navLinks: [
@@ -33,10 +33,10 @@ module.exports = {
       name: 'Experience',
       url: '/#jobs',
     },
-    {
-      name: 'Work',
-      url: '/#projects',
-    },
+    // {
+    //   name: 'Work',
+    //   url: '/#projects',
+    // },
     {
       name: 'Contact',
       url: '/#contact',
