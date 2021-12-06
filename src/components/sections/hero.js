@@ -64,13 +64,14 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a full-stack software engineer specializing in Full Stack Development, CI/CD Pipelines,
-        and Kubernetes working at{' '}
+        I’m a full-stack software engineer specializing in Day 0 prod-ready Full Stack Development,
+        CI/CD Pipelines, and Helm/Kubernetes deployments. I'm currently working at{' '}
         <a href="https://deloitte.com/" target="_blank" rel="noreferrer">
           Deloitte
         </a>{' '}
-        . I have 5+ years of professional experience! I am currently working on an NFT Marketplace
-        built on the Flow blockchain. I am currently looking for work in the blockchain sector,
+        . I have 5+ years of professional experience! Cloud Solutions Consultant and DevOps
+        Engineer, specializing in cloud-native solutions, automated CI/CD pipelines, Spring Boot
+        APIs, and Angular Typescript UIs. I am currently looking for work in the blockchain sector,
         startups preferred but open to other opportunities as well.
       </p>
     </>

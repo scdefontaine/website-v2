@@ -127,13 +127,27 @@ const About = () => {
   }, []);
 
   const skills = [
-    'JavaScript (ES6+)',
-    'TypeScript',
-    'React',
-    'Solidity',
-    'Node.js',
-    'Java',
-    'SpringBoot',
+    'Helm',
+    'Kubernetes',
+    'Amazon Web Services',
+    'Microsoft Azure',
+    'Open Container Platform',
+    'Docker / Podman',
+    'GitLab CI/CD',
+    'SonarQube',
+    'Camunda',
+    'Nexus Artifact Repository',
+    'Keycloak',
+    'Kafka',
+    'Grafana',
+    'Prometheus',
+    'Kong API Gateway / Ingress Controller',
+    'NGINX',
+    'Blockchain - Truffle, Ganache, Solidity',
+    'Front-end UIs - Angular Typescript, Material library',
+    'APIs - Java 11, Spring Boot',
+    'Relational Databases - PostgreSQL, MySQL',
+    'Database Management - Liquibase',
   ];
 
   return (
@@ -152,11 +166,12 @@ const About = () => {
 
             <p>
               Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://deloitte.com/">a consulting firm</a>,{' '}
-              <a href="https://asurance.com/">a tech insurance company</a>,{' '}
-              <a href="https://www.getaboard.org/">a non-profit based in Orlando</a>, and{' '}
-              <a href="https://ole.org/">an internal non-profit company</a>. My main focus these
-              days is learning blockchain technology and building Web3.0 decentralized applications.
+              <a href="https://www2.deloitte.com/us/en.html">a consulting firm</a>,{' '}
+              <a href="https://www.marriottvacationsworldwide.com">
+                a hotel and timeshare conglomerate
+              </a>
+              , <a href="https://executive.embraer.com/global/en">an executive jet manufacturer</a>,
+              and{' '}
             </p>
 
             {/* <p>
