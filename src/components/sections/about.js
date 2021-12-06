@@ -134,6 +134,7 @@ const About = () => {
     'Cloud Infrastructure - AWS',
     'RedHat Openshift Container Platform',
     'Containerization - Docker / Podman',
+    'Container Scanning - Anchore, Grype',
     'CI/CD Pipelines - GitLab CI/CD',
     'Codebase Security Scanning - SonarQube',
     'Workflow Automation - Camunda',
@@ -168,11 +169,10 @@ const About = () => {
               <a href="https://www.marriottvacationsworldwide.com">
                 a hotel and timeshare conglomerate
               </a>
-              ,{' '}
-              <a href="https://executive.embraer.com/global/en">
-                an industry-leading executive jet manufacturer
-              </a>
               , and{' '}
+              <a href="https://executive.embraer.com/global/en">
+                an industry-leading executive jet manufacturer.
+              </a>
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>

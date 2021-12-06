@@ -1,0 +1,7 @@
+name: website
+namespace: default
+
+service:
+  internalPort: 8000
+  externalPort: 8000
+  
