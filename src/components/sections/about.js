@@ -127,27 +127,25 @@ const About = () => {
   }, []);
 
   const skills = [
-    'Helm',
-    'Kubernetes',
-    'Amazon Web Services',
-    'Microsoft Azure',
-    'Openshift Container Platform',
-    'Docker / Podman',
-    'GitLab CI/CD',
-    'SonarQube',
-    'Camunda',
-    'Nexus Artifact Repository',
-    'Keycloak',
-    'Kafka',
-    'Grafana',
-    'Prometheus',
-    'Kong API Gateway / Ingress Controller',
-    'NGINX',
-    'Blockchain - Truffle, Ganache, Solidity',
-    'Front-end UIs - Angular Typescript, Material library',
-    'APIs - Java 11, Spring Boot',
+    'Kubernetes Orchestration - Helm',
+    'Kubernetes Visualization - Grafana',
+    'Kubernetes Monitoring - Prometheus',
+    'Kubernetes Ingress - Kong, NGINX',
+    'Cloud Infrastructure - AWS',
+    'RedHat Openshift Container Platform',
+    'Containerization - Docker / Podman',
+    'CI/CD Pipelines - GitLab CI/CD',
+    'Codebase Security Scanning - SonarQube',
+    'Workflow Automation - Camunda',
+    'Artifact Repositories - Nexus',
+    'IAM - Keycloak',
+    'Messaging - Kafka',
+    'Front-end UIs - Angular Typescript with Material library',
+    'Backend APIs - Java 11, Spring Boot',
     'Relational Databases - PostgreSQL, MySQL',
     'Database Management - Liquibase',
+    'Blockchain Tech - Truffle, Ganache, Solidity',
+    'Blockchain Networks - Binance Smart Chain',
   ];
 
   return (
@@ -165,23 +163,17 @@ const About = () => {
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://www2.deloitte.com/us/en.html">a consulting firm</a>,{' '}
+              Looking back, I’ve had the privilege of working at{' '}
+              <a href="https://www2.deloitte.com/us/en.html">a Big 4 consulting firm</a>,{' '}
               <a href="https://www.marriottvacationsworldwide.com">
                 a hotel and timeshare conglomerate
               </a>
-              , <a href="https://executive.embraer.com/global/en">an executive jet manufacturer</a>,
-              and{' '}
+              ,{' '}
+              <a href="https://executive.embraer.com/global/en">
+                an industry-leading executive jet manufacturer
+              </a>
+              , and{' '}
             </p>
-
-            {/* <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
-            </p> */}
 
             <p>Here are a few technologies I’ve been working with recently:</p>
           </div>
