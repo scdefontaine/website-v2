@@ -8,7 +8,7 @@ stages:
   - deploy
 
 build:
-  image: node-14-alpine
+  image: node:14-alpine
   stage: build
   tags:
     - runner
@@ -16,11 +16,9 @@ build:
     TEMP: temp
   script:
     - echo 'test'
-  only:
-    - main
 
 test:
-  image: node-14-alpine
+  image: node:14-alpine
   stage: test
   tags:
     - runner
@@ -32,7 +30,7 @@ test:
     - main
 
 package:
-  image: node-14-alpine
+  image: node:14-alpine
   stage: package
   tags:
     - runner
@@ -44,7 +42,7 @@ package:
     - main
 
 scan:
-  image: node-14-alpine
+  image: node:14-alpine
   stage: scan
   tags:
     - runner
@@ -56,7 +54,7 @@ scan:
     - main
 
 deploy:
-  image: node-14-alpine
+  image: node:14-alpine
   stage: deploy
   tags:
     - runner
