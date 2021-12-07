@@ -1,6 +1,6 @@
 ---
 date: '2021-12-04'
-title: 'Full-Stack Software Engineer'
+title: 'Solutions Consultant'
 company: 'Deloitte'
 location: 'Orlando, FL'
 range: 'December 2020 - Present'
