@@ -1,0 +1,68 @@
+image: redhat/ubi8
+
+stages:
+  - build
+  - test
+  - package
+  - scan
+  - deploy
+
+build:
+  image: node-14-alpine
+  stage: build
+  tags:
+    - runner
+  variables:
+    TEMP: temp
+  script:
+    - echo 'test'
+  only:
+    - main
+
+test:
+  image: node-14-alpine
+  stage: test
+  tags:
+    - runner
+  variables:
+    TEMP: temp
+  script:
+    - echo 'test'
+  only:
+    - main
+
+package:
+  image: node-14-alpine
+  stage: package
+  tags:
+    - runner
+  variables:
+    TEMP: temp
+  script:
+    - echo 'test'
+  only:
+    - main
+
+scan:
+  image: node-14-alpine
+  stage: scan
+  tags:
+    - runner
+  variables:
+    TEMP: temp
+  script:
+    - echo 'test'
+  only:
+    - main
+
+deploy:
+  image: node-14-alpine
+  stage: deploy
+  tags:
+    - runner
+  variables:
+    TEMP: temp
+  script:
+    - echo 'test'
+  only:
+    - main
